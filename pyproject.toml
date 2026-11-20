@@ -1,7 +1,7 @@
 [project]
-name = "python-restful-api"
+name = "user-service"
 version = "0.1.0"
-description = "Layered RESTful API built with FastAPI, SQLAlchemy, and MySQL"
+description = "Clean layered User Service using FastAPI"
 readme = "README.md"
 authors = [
     { name = "jwjooth", email = "185214226+jwjooth@users.noreply.github.com" }
@@ -31,3 +31,6 @@ target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
+
+[tool.uv]
+package = false
