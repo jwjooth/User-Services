@@ -26,7 +26,8 @@ class BaseEntity(BaseModel):
 class BaseEntityOutput(BaseModel):
     """Output model serialized directly from ORM entities.
 
-    Uses `from_attributes=True` (PEP 649 semantics in Pydantic v2: `model_config.from_attributes = True`)
+    Uses `from_attributes=True` (PEP 649 semantics in Pydantic v2: 
+    `model_config.from_attributes = True`)
     to map ORM attributes to dict attributes.
     """
 

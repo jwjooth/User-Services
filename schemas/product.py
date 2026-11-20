@@ -4,6 +4,7 @@ Moved from payloads/ProductPayload.py to separate schemas module
 to remove cyclic dependency: entity → payload → service.
 """
 
+from datetime import datetime
 from decimal import Decimal
 
 from pydantic import Field
